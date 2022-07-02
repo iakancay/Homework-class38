@@ -1,0 +1,23 @@
+{
+  "node": "v16.15.0",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookPro11,5"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-4870HQ",
+    "speed": 2.5
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "12.4"
+  },
+  "vscodeInfo": {
+    "version": "",
+    "extensions": [],
+    "userSettings": {}
+  }
+}
