@@ -16,22 +16,20 @@ function rollDie() {
   const randomRollsToDo = Math.floor(Math.random() * 8) + 3;
   console.log(`Die scheduled for ${randomRollsToDo} rolls...`);
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const rollOnce = (roll) => {
-        const value = Math.floor(Math.random() * 6) + 1;
-        console.log(`Die value is now: ${value}`);
-        if (roll > 6) {
-          reject(new Error('Oops... Die rolled off the table.'));
-        }
-        if (roll === randomRollsToDo) {
-          resolve(value);
-        }
-        if (roll < randomRollsToDo) {
-          setTimeout(() => rollOnce(roll + 1), 500);
-        }
-      };
-      rollOnce(1);
-    }, 500);
+    const rollOnce = (roll) => {
+      const value = Math.floor(Math.random() * 6) + 1;
+      console.log(`Die value is now: ${value}`);
+      if (roll > 6) {
+        reject(new Error('Oops... Die rolled off the table.'));
+      }
+      if (roll === randomRollsToDo) {
+        resolve(value);
+      }
+      if (roll < randomRollsToDo) {
+        setTimeout(() => rollOnce(roll + 1), 500);
+      }
+    };
+    rollOnce(1);
   });
 }
 

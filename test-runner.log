@@ -163,3 +163,23 @@ Ran all test suites matching /ex3-rollDie.test.js/i.
 2022-07-03 07:59:21 info: ---------------------------------------
 2022-07-03 07:59:23 info: All unit tests passed.
 2022-07-03 07:59:26 info: All steps were completed successfully
+2022-07-03 08:01:57 info: -------------------------------------------------
+2022-07-03 08:01:57 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2022-07-03 08:01:57 info: -------------------------------------------------
+2022-07-03 08:01:58 info: All unit tests passed.
+2022-07-03 08:02:00 info: All steps were completed successfully
+2022-07-03 08:03:38 info: ---------------------------------------
+2022-07-03 08:03:38 info: >>> Running Unit Test `ex3-rollDie` <<<
+2022-07-03 08:03:38 info: ---------------------------------------
+2022-07-03 08:03:40 info: All unit tests passed.
+2022-07-03 08:03:42 info: All steps were completed successfully
+2022-07-03 08:43:27 info: --------------------------------------------
+2022-07-03 08:43:27 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-07-03 08:43:27 info: --------------------------------------------
+2022-07-03 08:43:29 info: All unit tests passed.
+2022-07-03 08:43:31 info: All steps were completed successfully
+2022-07-03 09:58:20 info: ----------------------------------------------
+2022-07-03 09:58:20 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2022-07-03 09:58:20 info: ----------------------------------------------
+2022-07-03 09:58:22 info: All unit tests passed.
+2022-07-03 09:58:24 info: All steps were completed successfully
