@@ -11,13 +11,11 @@ Rewrite this function, but replace the callback syntax with the Promise syntax:
 
 const getAnonName = (firstName) => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      if (!firstName) {
-        reject(new Error("You didn't pass in a first name!"));
-      } else {
-        resolve(`${firstName} Doe`);
-      }
-    }, 1000);
+    if (!firstName) {
+      reject(new Error("You didn't pass in a first name!"));
+    } else {
+      resolve(`${firstName} Doe`);
+    }
   });
 };
 
