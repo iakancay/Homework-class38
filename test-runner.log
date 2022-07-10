@@ -70,3 +70,8 @@ Ran all test suites matching /ex2-pokemonApp.test.js/i.
 2022-07-10 10:45:20 info: ----------------------------------------
 2022-07-10 10:45:20 warn: A unit test file was not provided.
 2022-07-10 10:45:22 info: All steps were completed successfully
+2022-07-10 10:58:19 info: --------------------------------------------
+2022-07-10 10:58:19 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2022-07-10 10:58:19 info: --------------------------------------------
+2022-07-10 10:58:19 warn: A unit test file was not provided.
+2022-07-10 10:58:21 info: All steps were completed successfully
