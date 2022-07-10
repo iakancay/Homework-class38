@@ -1,0 +1,62 @@
+2022-07-10 08:11:29 info: ---------------------------------------------
+2022-07-10 08:11:29 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2022-07-10 08:11:29 info: ---------------------------------------------
+2022-07-10 08:11:34 info: All unit tests passed.
+2022-07-10 08:11:36 error: *** Spell Checker Report ***
+
+ex1-programmerFun/index.js:25:20 - Unknown word (Ooops)
+
+2022-07-10 08:16:54 info: ------------------------------------------
+2022-07-10 08:16:54 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-07-10 08:16:54 info: ------------------------------------------
+2022-07-10 08:16:58 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (96 ms)
+    ✓ should have all TODO comments removed
+    ✓ should use `fetch()` (1 ms)
+    ✓ should use `await fetch()`
+    ✓ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      9:29  error  <button> is missing required \"type\" attribute  element-required-attributes·
+    ✖ 1 problem (1 error, 0 warnings)
+    "
+
+      44 |   const { results } = htmlValidate.validateString(htmlText);
+      45 |   const validationReport = stylish(results);
+    > 46 |   expect(validationReport).toBe('');
+         |                            ^
+      47 | }
+      48 |
+      49 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:46:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 4 passed, 5 total
+Snapshots:   0 total
+Time:        2.492 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+2022-07-10 08:21:24 info: ------------------------------------------
+2022-07-10 08:21:24 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-07-10 08:21:24 info: ------------------------------------------
+2022-07-10 08:21:27 info: All unit tests passed.
+2022-07-10 08:21:29 info: All steps were completed successfully
+2022-07-10 08:38:42 info: -----------------------------------------
+2022-07-10 08:38:42 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2022-07-10 08:38:42 info: -----------------------------------------
+2022-07-10 08:38:44 info: All unit tests passed.
+2022-07-10 08:38:46 info: All steps were completed successfully

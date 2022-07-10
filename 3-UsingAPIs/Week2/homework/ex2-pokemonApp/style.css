@@ -1,1 +1,55 @@
 /* add your styling here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(pokemons.png);
+}
+.container {
+  margin: 20px;
+  padding: 50px;
+  width: 40%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+select {
+  background-color: beige;
+  border: none;
+  width: 20%;
+  padding: 5px;
+  color: rgb(68, 74, 72);
+  font-size: 18px;
+}
+option {
+  background-color: beige;
+  border: none;
+  width: 20%;
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 18px;
+}
+button {
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(198, 231, 173);
+  border-radius: 5px;
+  width: 30%;
+  border: none;
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+button:active {
+  transform: translateY(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.container img {
+  height: 300px;
+  width: auto;
+}

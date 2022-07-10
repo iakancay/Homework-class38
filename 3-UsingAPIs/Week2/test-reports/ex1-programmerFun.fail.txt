@@ -1,0 +1,4 @@
+
+*** Spell Checker Report ***
+
+ex1-programmerFun/index.js:25:20 - Unknown word (Ooops)
