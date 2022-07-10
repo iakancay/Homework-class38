@@ -60,3 +60,8 @@ Ran all test suites matching /ex2-pokemonApp.test.js/i.
 2022-07-10 08:38:42 info: -----------------------------------------
 2022-07-10 08:38:44 info: All unit tests passed.
 2022-07-10 08:38:46 info: All steps were completed successfully
+2022-07-10 08:51:18 info: ----------------------------------------
+2022-07-10 08:51:18 info: >>> Running Unit Test `ex4-diceRace` <<<
+2022-07-10 08:51:18 info: ----------------------------------------
+2022-07-10 08:51:20 info: All unit tests passed.
+2022-07-10 08:51:22 info: All steps were completed successfully
