@@ -36,7 +36,7 @@ container.appendChild(selectElement);
 const imgElement = document.createElement('div');
 container.appendChild(imgElement);
 const api = 'https://pokeapi.co/api/v2/pokemon?limit=151';
-const imgApi = `https://pokeapi.co/api/v2/pokemon-form/`;
+const imgApi = `https://pokeapi.co/api/v2/pokemon/`;
 
 async function fetchData(url) {
   const response = await fetch(url);
@@ -66,7 +66,7 @@ async function fetchImage(url) {
     const select = document.querySelector('select');
     const pokemonIndex = select.options[select.selectedIndex].value;
     const data = await fetchData(`${url}${pokemonIndex}/`);
-    const imgUrl = data.sprites.front_default;
+    const imgUrl = data.sprites.other['official-artwork'].front_default;
     const img = document.createElement('img');
     img.src = imgUrl;
     imgElement.textContent = ' ';
